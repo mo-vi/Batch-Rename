@@ -1,0 +1,12 @@
+{
+  "name": "com.mo-vi.extended-editor.batch-rename",
+  "version": "1.0.0",
+  "displayName": "Batch Rename",
+  "description": "Unity editor utility. Rename multiple game objects at once.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Guillermo Vignolo",
+    "email": "",
+    "url": ""
+  }
+}
