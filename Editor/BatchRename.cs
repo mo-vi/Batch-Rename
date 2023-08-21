@@ -62,7 +62,7 @@ namespace ExtendedEditor
             {
                 startingNumber = EditorGUILayout.IntField("Starting Number", startingNumber);
                 
-                separatorOptions = (SeparatorOptions)EditorGUILayout.EnumPopup("Separator:", separatorOptions);
+                separatorOptions = (SeparatorOptions)EditorGUILayout.EnumPopup("Separator", separatorOptions);
             }
             
             EditorGUILayout.Space(4);
@@ -75,7 +75,7 @@ namespace ExtendedEditor
             {
                 if (gameObjects.Length == 0)
                 {
-                    Debug.LogWarning("No GameObjects to rename. Complete the list with a set of GameObjects in order to continue.");
+                    Debug.LogWarning("No GameObjects to rename. Select at least one GameObject in the hierarchy.");
                     
                     return;    
                 }
