@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace ExtendedEditor
+namespace ExtendedEditor.BatchRename
 {
     public enum SeparatorOptions
     {
